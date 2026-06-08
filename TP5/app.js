@@ -21,7 +21,7 @@ numero1 = 20;
 resultado = numero1 * numero2
 
 console.log(resultado);
-alert(resultado);
+
 //ej4 div
 numero1 = 20;
  numero2 = 2;
@@ -30,8 +30,8 @@ numero1 = 20;
 resultado = numero1 / numero2
 
 console.log(resultado);
-alert(resultado);
 
 
-
-
+let nombreAlumno = Katia
+let apellidoAlumno = Muller
+let edadAlumno
