@@ -32,6 +32,10 @@ resultado = numero1 / numero2
 console.log(resultado);
 
 
-let nombreAlumno = Katia
-let apellidoAlumno = Muller
-let edadAlumno
+let precio1 = 140
+let precio2 = 450
+let precio3 = 100
+
+resultado = precio1 + precio2 + precio3
+
+console.log(resultado)
