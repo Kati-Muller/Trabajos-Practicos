@@ -1,3 +1,4 @@
+/*
 //ej1 suma
 let numero1 = 25;
 let numero2 = 23;
@@ -45,5 +46,27 @@ let apellidoAlumno = 'sanchez';
 let edadAlumno = 17;
 
 console.log(nombreAluno + ' '+ apellidoAlumno +' '+ 'tiene' +' '+ edadAlumno);
+*/
+let titulo = document.querySelector('h1')
+let boton = document.querySelector('button')
+
+boton.onclinck = function() {
+    titulo.textContent = 'buen dia tercero'
+    titulo.style.color = 'yellow'
+    titulo.style.backgroundColor = 'purple'
+    titulo.style.fontFamily = 'Arial'
+}
+let subtitulo = document.querySelector('h2')
+let b2 = document.querySelector('botoncito')
+
+b2.onclinck = function() {
+    titulo.textContent = 'buen dia'
+    titulo.style.color = 'blue'
+    titulo.style.backgroundColor = 'red'
+    titulo.style.fontFamily = 'Arial'
+}
+
+
+
 
 
