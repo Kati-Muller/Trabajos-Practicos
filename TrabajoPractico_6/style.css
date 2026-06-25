@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    background-color: rgb(171, 202, 230);
+    color: rgb(246, 253, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+p{
+    font-size: 30px;
+}
+button{
+    color: black;
+    padding: 15px;
+    border:none;
+    border-radius: 15px;
+    background-color: coral;
+}
+button:hover{
+    background-color: crimson;
+    color: darkmagenta;
+    transform: scale(1.1) rotate(2deg);
+}
+button{
+    transition: o.3s;
+}
